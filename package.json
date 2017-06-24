@@ -1,0 +1,24 @@
+{
+  "name": "formdata-to-object",
+  "description": "Convert a formData object or form DOM node to a KV object",
+  "repository": "yoshuawuyts/formdata-to-object",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "node .",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "standard": "^10.0.2",
+    "tape": "^4.6.3"
+  },
+  "keywords": [
+    "form",
+    "formdata",
+    "object",
+    "kv"
+  ],
+  "license": "MIT"
+}
